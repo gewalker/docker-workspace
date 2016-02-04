@@ -14,12 +14,9 @@ hardstatus on
 hardstatus alwayslastline
 hardstatus string "%{.kW}%-w%{.W}%n %t%{-}%{=b kw}%?%+w%? %=%c %d/%m/%Y" #B&W & date&time
 sorendition kw
-caption always "%{= kc}%H (system load: %l)%-21=%{= .m}%D %d.%m.%Y %0c"
 term screen-256color
 terminfo rxvt-unicode 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
 bind ' ' windowlist -b
 screen mc
 title "File Mgr"
-screen irssi
-title "IRC"
 screen bash
